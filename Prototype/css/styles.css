@@ -84,6 +84,74 @@ body {
 }
 /* END HEADER */
 
+/* CSS for Signup*/
+#createAccContent {
+    color: #111;
+}
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+/*End of signup*/
+
+/* login css */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400);
+#loginBody {
+  background-color:#fff;
+  -webkit-font-smoothing: antialiased;
+  font: normal 14px Roboto,arial,sans-serif;
+}
+
+#signInContent {
+    padding: 25px;
+}
+#loginForm {
+    background-color: #EDEDED;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    box-shadow:0 1px 0 #cfcfcf;
+}
+
+#loginWelcome { 
+    border:0 solid #111; 
+    border-bottom-width:1px;
+    padding-bottom:10px;
+    text-align: center;
+    color: #111;
+}
+
+#loginFormControl {
+    border-radius: 10px;
+}
+
+#loginWrapper {
+    text-align: center;
+}
+/* end of login css */
+
 /* FOOTER */
 .panel-footer {
     margin-top: 30px;
@@ -147,6 +215,12 @@ footer section hr {
         position: relative;
         margin-top: 50px;
     }
+    #signInContent {
+        padding: 25px;
+        position: absolute;
+        left: 33.33%;
+        top: 33.33%;
+    }
 }
 
 /* Medium */
@@ -160,6 +234,12 @@ footer section hr {
         position: relative;
         margin-top: 25px;
     }
+    #signInContent {
+        padding: 25px;
+        position: absolute;
+        left: 33.33%;
+        top: 33.33%;
+    }
 }
 
 /* Small */
@@ -172,6 +252,13 @@ footer section hr {
         font-size: larger;
         position: relative;
         margin-top: 10px;
+        width: 100px;
+    }
+    #signInContent {
+        padding: 25px;
+        position: absolute;
+        left: 38%;
+        top: 33.33%;
     }
 }
 
