@@ -1,0 +1,19 @@
+{
+  "name": "mainproject",
+  "version": "1.0.0",
+  "description": "Main project folder of the Time Table project CS311",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CS311GroupProject-TimeTableSystem/MainProject.git"
+  },
+  "author": "Janitha Nawarathna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CS311GroupProject-TimeTableSystem/MainProject/issues"
+  },
+  "homepage": "https://github.com/CS311GroupProject-TimeTableSystem/MainProject#readme"
+}
