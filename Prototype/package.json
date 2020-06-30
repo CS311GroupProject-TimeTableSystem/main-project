@@ -1,0 +1,22 @@
+{
+  "name": "prototype",
+  "version": "1.0.0",
+  "description": "developing project of School Time table management system",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CS311GroupProject-TimeTableSystem/MainProject.git"
+  },
+  "author": "Janitha Nawarathna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CS311GroupProject-TimeTableSystem/MainProject/issues"
+  },
+  "homepage": "https://github.com/CS311GroupProject-TimeTableSystem/MainProject#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
