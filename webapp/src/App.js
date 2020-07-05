@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import {Navbar, NavbarBrand} from 'reactstrap';
+import Main from './components/MainContentComponent';
 import './App.css';
 
 function App() {
